@@ -1,18 +1,17 @@
-import java.util.Scanner;
+
 
 public class PrimeraClase {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		int i, divisores=0, numero=0;
-		for(i=1; i<=numero; i++) {
-			System.out.println("Ingrese un numero ");
-			numero = scanner.nextInt();
-			if(numero % i == 0) {
+		int i, divisores=0;
+		for(i=50; i<=100; i++) {
+			if(i % 2 > 0) {
 				divisores++;
 			}
-			
-	}
+		}
+		if(divisores == 2) {
+			System.out.println("Es par");
+		}
 
 }
 	
