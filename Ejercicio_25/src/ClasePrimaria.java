@@ -5,7 +5,7 @@ public class ClasePrimaria {
 		// Scanner para leer entradas
         Scanner scanner = new Scanner(System.in);
 
-        // Pedimos dos números
+        // Pedimos dos numeros
         System.out.print("Ingrese el primer numero: ");
         double num1 = scanner.nextDouble();
 
@@ -19,7 +19,7 @@ public class ClasePrimaria {
 
         double resultado = 0; // Variable para guardar el resultado
 
-        // Realizamos la operación según la opción ingresada
+        // Realizamos la operación segun la opción ingresada
         switch (opcion) {
             case 1:
                 resultado = num1 + num2;
